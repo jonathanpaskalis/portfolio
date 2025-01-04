@@ -3,6 +3,11 @@ export default {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'montserrat': ['Montserrat'],
+        'montserrat-italic': ['Montserrat-Italic'],
+        'russo-one': ['Russo-One']
+      },
       boxShadow: {
         portfolio: {
           'cyan-glow-sm': '0 0 0.5rem rgba(28,224,224,0.25)',
