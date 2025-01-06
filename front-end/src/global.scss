@@ -6,3 +6,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p,
+span {
+  @apply text-[0.75rem] md:text-[0.875rem] lg:text-[1rem];
+  @apply text-portfolio-neutral-4;
+}

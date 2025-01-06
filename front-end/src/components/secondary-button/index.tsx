@@ -9,15 +9,19 @@ export const SecondaryButton = component$<SecondaryButtonProps>((props) => {
     <button
       class="
       w-min
-      px-4 py-2
-      border border-portfolio-neutral-4 hover:border-portfolio-neutral-5
       rounded-lg
-      bg-portfolio-neutral-1 active:bg-portfolio-magenta-3
+      border border-portfolio-neutral-4
+      bg-portfolio-neutral-1
+      px-4 py-2
+      font-russo-one text-[0.75rem] text-portfolio-magenta-2
+      hover:border-portfolio-neutral-5 
+      hover:text-portfolio-magenta-3
+      hover:drop-shadow-portfolio-white-glow-sm
+      active:bg-portfolio-magenta-3
+      active:text-portfolio-neutral-1
       active:drop-shadow-portfolio-white-glow-lg
-      text-[0.75rem] md:text-[0.875rem] lg:text-[1rem]
-      text-portfolio-magenta-2 active:text-portfolio-neutral-1 
-      font-russo-one
-      hover:text-portfolio-magenta-3 hover:drop-shadow-portfolio-white-glow-sm 
+      md:text-[0.875rem]
+      lg:text-[1rem]
     "
     >
       {props.text}
