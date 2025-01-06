@@ -9,16 +9,14 @@ export default {
         'russo-one': ['Russo-One']
       },
       boxShadow: {
-        portfolio: {
-          'cyan-glow-sm': '0 0 0.5rem rgba(28,224,224,0.25)',
-          'cyan-glow-lg': '0 0 4rem rgba(28,224,224,0.25)',
-          'yellow-glow-sm': '0 0 0.5rem rgba(224,224,28,0.25)',
-          'yellow-glow-lg': '0 0 4rem rgba(224,224,28,0.25)',
-          'magenta-glow-sm': '0 0 0.5rem rgba(224,28,224,0.25)',
-          'magenta-glow-lg': '0 0 4rem rgba(224,28,224,0.25)',
-          'white-glow-sm': '0 0 0.5rem rgba(248,248,248,0.25)',
-          'white-glow-lg': '0 0 4rem rgba(248,248,248,0.25)'
-        }
+        'portfolio-cyan-glow-sm': '0 0 0.5rem rgba(28,224,224,0.25)',
+        'portfolio-cyan-glow-lg': '0 0 2rem rgba(28,224,224,0.25)',
+        'portfolio-yellow-glow-sm': '0 0 0.5rem rgba(224,224,28,0.25)',
+        'portfolio-yellow-glow-lg': '0 0 2rem rgba(224,224,28,0.25)',
+        'portfolio-magenta-glow-sm': '0 0 0.5rem rgba(224,28,224,0.25)',
+        'portfolio-magenta-glow-lg': '0 0 2rem rgba(224,28,224,0.25)',
+        'portfolio-white-glow-sm': '0 0 0.5rem rgba(248,248,248,0.25)',
+        'portfolio-white-glow-lg': '0 0 2rem rgba(248,248,248,0.25)'
       },
       colors: {
         portfolio: {
@@ -47,16 +45,14 @@ export default {
         }
       },
       dropShadow: {
-        portfolio: {
-          'cyan-glow-sm': '0 0 0.5rem rgba(28,224,224,0.25)',
-          'cyan-glow-lg': '0 0 4rem rgba(28,224,224,0.25)',
-          'yellow-glow-sm': '0 0 0.5rem rgba(224,224,28,0.25)',
-          'yellow-glow-lg': '0 0 4rem rgba(224,224,28,0.25)',
-          'magenta-glow-sm': '0 0 0.5rem rgba(224,28,224,0.25)',
-          'magenta-glow-lg': '0 0 4rem rgba(224,28,224,0.25)',
-          'white-glow-sm': '0 0 0.5rem rgba(248,248,248,0.25)',
-          'white-glow-lg': '0 0 4rem rgba(248,248,248,0.25)'
-        }
+          'portfolio-cyan-glow-sm': '0 0 0.5rem rgba(28,224,224,0.25)',
+          'portfolio-cyan-glow-lg': '0 0 2rem rgba(28,224,224,0.25)',
+          'portfolio-yellow-glow-sm': '0 0 0.5rem rgba(224,224,28,0.25)',
+          'portfolio-yellow-glow-lg': '0 0 2rem rgba(224,224,28,0.25)',
+          'portfolio-magenta-glow-sm': '0 0 0.5rem rgba(224,28,224,0.25)',
+          'portfolio-magenta-glow-lg': '0 0 2rem rgba(224,28,224,0.25)',
+          'portfolio-white-glow-sm': '0 0 0.5rem rgba(248,248,248,0.25)',
+          'portfolio-white-glow-lg': '0 0 2rem rgba(248,248,248,0.25)'
       },
       screens: {
         '2xs': '360px',

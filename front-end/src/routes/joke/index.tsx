@@ -1,5 +1,7 @@
 import { component$, useSignal, useTask$ } from "@builder.io/qwik";
 import { routeLoader$, Form, routeAction$, server$ } from "@builder.io/qwik-city";
+import { PrimaryButton } from "~/components/primary-button/primary-button";
+import { SecondaryButton } from "~/components/secondary-button/secondary-button";
 
 export const useJokeVoteAction = routeAction$(props => {
   console.log('VOTE', props);
@@ -28,7 +30,7 @@ export default component$(() => {
   const dadJokeSignal = useDadJoke();
   const favoriteJokeAction = useJokeVoteAction();
   return (
-    <section>
+    <section class="flex flex-col gap-y-4">
       <p>{dadJokeSignal.value.joke}</p>
       <Form action={favoriteJokeAction}>
         <input type="hidden" name="jokeID" value={dadJokeSignal.value.id} />
@@ -40,6 +42,8 @@ export default component$(() => {
       }}>
         {isFavoriteSignal.value ? '❤️' : '🤍'}
       </button>
+      <PrimaryButton text="BUTTON" />
+      <SecondaryButton text="BUTTON" />
     </section>
   )
 });
